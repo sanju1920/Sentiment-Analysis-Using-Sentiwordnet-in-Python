@@ -2,7 +2,7 @@
 
 install nltk package 
 by typing ..
->> import nltk
->>nltk.corpus('sentiwords')
+import nltk
+nltk.corpus('sentiwords')
 
 After installing  edit the sentiwords english file and remove the not from the list 
