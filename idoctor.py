@@ -67,7 +67,7 @@ def get_scores(filepath, sentiword):
             
 
 if __name__ == "__main__":
-    comment = input("Enter Your felling : ")
+    comment = input("Enter Your feeling : ")
     sentiword = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t]) |(\w+:\/\/\S+)", " ", comment).split())
     stop_words = set(stopwords.words('english'))
     
